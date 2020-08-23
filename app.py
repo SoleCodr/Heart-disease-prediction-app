@@ -100,7 +100,7 @@ accuracy = round(accuracy_score(y_test,y_pred),2)*100
 
 st.write(f'CLassifier = {clf_name}')
 st.write(f'Accuracy = {accuracy}')
-
+st.sidebar.markdown('---')
 if st.sidebar.button("Know About Developer"):
     st.sidebar.header(''' Kuldeep Sharma aka [SoleCodr](https://github.com/SoleCodr) ''')
     st.sidebar.subheader('''GitHub Repository of this [App](https://github.com/SoleCodr/Heart-disease-prediction-app) ''')
