@@ -141,7 +141,7 @@ else:
         ca = st.sidebar.slider('ca :',0,4,1)
         thal = st.sidebar.slider('thal :',1,3,2)
         
-        inputs = { 'Age' : age,
+        inputs ={'Age' : age,
                 'sex' : sex,
                 'cp' : cp,
                 'testbps' : testbps,
@@ -179,7 +179,6 @@ else:
 
 st.sidebar.markdown('---')
 if st.sidebar.button("Know About Developer"):
-    st.sidebar.image('./img/self.jpg',use_column_width=True)
     st.sidebar.header(''' Kuldeep Sharma aka [SoleCodr](https://github.com/SoleCodr) ''')
     st.sidebar.subheader('''GitHub Repository of this [App](https://github.com/SoleCodr/Heart-disease-prediction-app) ''')
     st.balloons()
